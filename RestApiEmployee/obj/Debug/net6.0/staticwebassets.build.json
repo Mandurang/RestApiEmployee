@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "T4D1/VzrVxTJNZFjWBq4pUlyY/taUhuCWjsa5CG8xZE=",
+  "Source": "RestApiEmployee",
+  "BasePath": "_content/RestApiEmployee",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
