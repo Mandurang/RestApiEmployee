@@ -17,6 +17,7 @@ namespace RestApiEmployee.Persistance
 
         public DbSet<AdminViewModel> AdminViewModels { get; set; }
         public DbSet<UserViewModel> UserViewModels { get; set; }
+        public DbSet<EmployeeViewModel> EmployeeViewModels { get; set; }
 
     }
 }

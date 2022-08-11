@@ -1,5 +1,6 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using RestApiEmployee.Queries;
 
 namespace RestApiEmployee.Controllers
 {
@@ -18,8 +19,8 @@ namespace RestApiEmployee.Controllers
             _logger = logger;
         }
 
-        //[HttpGet("GetUserByName")]
-        //public async Task<IActionResult> GetAction([FromQuery] GetUserByName query)
-        //    => Ok(await _mediator.Send(new GetUserByName));
+        [HttpGet("GetUserByName")]
+        public async Task<IActionResult> GetAction([FromQuery] GetUserByName query)
+            => Ok(await _mediator.Send(query));
     }
 }
